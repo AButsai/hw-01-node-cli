@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AButsai/hw0-01-node-cli.git"
+    "url": "git+https://github.com/AButsai/hw-01-node-cli.git"
   },
   "author": "AButsai",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AButsai/hw0-01-node-cli/issues"
+    "url": "https://github.com/AButsai/hw-01-node-cli/issues"
   },
-  "homepage": "https://github.com/AButsai/hw0-01-node-cli#readme",
+  "homepage": "https://github.com/AButsai/hw-01-node-cli#readme",
   "dependencies": {
     "commander": "^9.4.0",
     "nodemon": "^2.0.19",
