@@ -54,10 +54,7 @@ const addContact = async (name, email, phone) => {
     const allContacts = await listContacts();
     if (allContacts.length !== 0) {
       for (const contact of allContacts) {
-        if (
-          contact.name.toLoweCase() === newName.toLoweCase() ||
-          contact.email.toLoweCase() === newEmail.toLoweCase()
-        ) {
+        if (contact.name === name || contact.email === email) {
           throw new Error(400);
         }
       }
