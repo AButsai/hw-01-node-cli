@@ -4,7 +4,6 @@ const path = require("path");
 
 const contactsPath = path.join(__dirname, "./db/contacts.json");
 
-// TODO: задокументировать каждую функцию
 const listContacts = async () => {
   try {
     const data = await fs.readFile(contactsPath, "utf-8");
